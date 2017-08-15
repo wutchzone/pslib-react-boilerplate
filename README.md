@@ -1,1 +1,1 @@
-# pslib-react-boilerplate
+# React app boilerplate
