@@ -1,4 +1,4 @@
-import React, { Component } from "React";
+import React from "react";
 
 const Main = () => {
     return(
