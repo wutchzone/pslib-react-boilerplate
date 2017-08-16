@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from "redux";
 import { BrowserRouter, Route } from "react-router-dom";
 
 import reducers from "./reducers";
-import Main from "./components/Main";
+import App from "./components/Main";
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
@@ -13,7 +13,7 @@ ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
         <BrowserRouter>
             <div>
-                <Route path="/" component={Main} />
+                <Route path="/" component={App} />
             </div>
         </BrowserRouter>
     </Provider>,
