@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import GreetReducer from "./GreetReducer";
+
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  greet: GreetReducer
 });
 
 export default rootReducer;
